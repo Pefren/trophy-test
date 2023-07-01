@@ -1,0 +1,19 @@
+body.full-width {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#map-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#map {
+    width: 100%;
+    height: 100vh; /*typo: heigth -> height */
+    background-color: red;
+    will-change: transform;
+}
